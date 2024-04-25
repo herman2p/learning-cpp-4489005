@@ -1,5 +1,5 @@
 // Learning C++ 
-// Exercise 00_03
+// Exercise 00_03 with mods
 // Using the exercise files on GitHub, by Eduardo Corpeño 
 
 #include <iostream>
@@ -12,9 +12,9 @@ int main(){
     std::cout << "Enter number 2: " << std::flush;
     std::cin >> num_2;
     
-    result = num_1 + num_2;
+    result = num_1 + num_2*5;
     
-    std::cout << "The result of the addition is " << result << std::endl;
+    std::cout << "The result of the function is " << result << std::endl;
     
     std::cout << std::endl << std::endl;
     return (0);
